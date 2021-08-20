@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.basictext.Controller">
+   <children>
+      <Text fx:id="nameOut" layoutX="148.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="307.0">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameIn" layoutX="147.0" layoutY="230.0" prefHeight="44.0" prefWidth="307.0" />
+      <Button layoutX="254.0" layoutY="294.0" mnemonicParsing="false" onMouseClicked="#nameChange" prefHeight="51.0" prefWidth="94.0" text="Change">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
